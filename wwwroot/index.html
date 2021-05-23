@@ -1,25 +1,156 @@
 <!DOCTYPE html>
 <html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Roboto", sans-serif
+    }
+</style>
+<body class="w3-light-grey">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>MyBlazorCVWebApp</title>
-    <base href="/" />
-    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/app.css" rel="stylesheet" />
-    <link href="MyBlazorCVWebApp.styles.css" rel="stylesheet" />
-</head>
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-<body>
-    <div id="app">Loading...</div>
+        <!-- The Grid -->
+        <div class="w3-row-padding">
 
-    <div id="blazor-error-ui">
-        An unhandled error has occurred.
-        <a href="" class="reload">Reload</a>
-        <a class="dismiss">🗙</a>
+            <!-- Left Column -->
+            <div class="w3-third">
+
+                <div class="w3-white w3-text-grey w3-card-4">
+                    <div class="w3-display-container">
+                        <img src="/Images/MyProfilePicture.jpg" style="width:100%" alt="Avatar">
+                        <!--<div class="w3-display-bottomright w3-container w3-text-black">
+                            <h2><strong>Bharath Yadav</strong></h2>
+                        </div>-->
+                    </div>
+                    <div class="w3-container">
+                        <h2><strong><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-large w3-text-teal"></i>Bharath Yadav</b></strong></h2>
+                        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Full-Stack .NET Developer</p>
+                        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bengaluru, India</p>
+                        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>bharath.indira@gmail.com</p>
+                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+91-9742350553</p>
+                        <hr>
+
+                        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+                        <p>C# Desktop/Web Development</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+                        </div>
+                        <p>SQL</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+                                <div class="w3-center w3-text-white">80%</div>
+                            </div>
+                        </div>
+                        <p>Azure</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+                        </div>
+                        <p>IoT</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small">
+                            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+                        </div>
+                        <br>
+
+                        <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+                        <p>English</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>Kannada</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+                        </div>
+                        <p>Hindi/Telugu/Telugu</p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge w3-teal" style="height:24px;width:50%"></div>
+                        </div>
+                        <br>
+                    </div>
+                </div><br>
+
+                <!-- End Left Column -->
+            </div>
+
+            <!-- Right Column -->
+            <div class="w3-twothird">
+                <!--Work Experience-->
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
+                    <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Senior Software Engineer</b></h5>
+                        <h5 class="w3-opacity"><b>Robert Bosch Engineering & Business Solutions(Bosch India)</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+                        <p>Flashing Solutions</p>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Software Engineer</b></h5>
+                        <h5 class="w3-opacity"><b>HCL Technologies</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2014</h6>
+                        <p>Research and Development</p>
+                        <hr>
+                    </div>
+                </div>
+                <!--Education-->
+                <div class="w3-container w3-card w3-white">
+                    <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Dr.Ambedkar Institute Of Technology</b></h5>
+                        <h5 class="w3-opacity"><b>Affiliated to Visvesvaraya Technological University (VTU)</b></h5>
+                        <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2007 - 2011</h6>
+                        <p>Bachelor Of Engineering in Computer Science</p>
+                        <hr>
+                    </div>
+                </div>
+                <!--Certification-->
+                <div class="w3-container w3-card w3-white">
+                    <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Certification</h2>
+                    <div class="w3-container">
+                        <!-- #region Certificates -->
+                        <!--DevOps-->
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="31fede7e-321d-46d3-9afa-db74b4a65f5f" data-share-badge-host="https://www.credly.com"></div>
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <!--Developer-->
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2215cd07-7b55-4387-b1f6-583e6684da04" data-share-badge-host="https://www.credly.com"></div>
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <!--Administrator-->
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="242a7f32-10d9-4614-9ac1-5e1258dd6f8c" data-share-badge-host="https://www.credly.com"></div>
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <!--Fundamentals-->
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="647cb8c4-83c0-43f1-bd38-94d7ef39d978" data-share-badge-host="https://www.credly.com"></div>
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <!-- #endregion -->
+                    </div>
+                </div>
+                <!-- End Right Column -->
+            </div>
+
+            <!-- End Grid -->
+        </div>
+
+        <!-- End Page Container -->
     </div>
-    <script src="_framework/blazor.webassembly.js"></script>
-</body>
 
+    <footer class="w3-container w3-teal w3-center w3-margin-top">
+        <p>Find me on social media.</p>
+        <!--<i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>-->
+        <!--<i class="fa fa-linkedin w3-hover-opacity" <a href="https://www.linkedin.com/in/bharath-yadav-36204032/" target="_parent"></a></i>-->
+        <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+        <a class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com/in/bharath-yadav-36204032/" target="_blank"></a>
+        <p><h6>Copyright&#169; 2021 Bharath Yadav</h6></p>
+    </footer>
+
+</body>
 </html>
+
